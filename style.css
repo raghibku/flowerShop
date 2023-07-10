@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerPhoto img{
+    height: 100vh;
+}
+.bannerText, .bannerPhoto{
+    width: 30vw;
+}
+.pinkButton{
+    background-color:  #E55473;
+    padding:20px 43px;
+    border-radius: 10px;
+}
+/* main section */
+/* section1 */
+.section1, .section3{
+    margin: 0% 10%;
+}
+.section1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pb{
+    background-color: #E55473;
+    position: relative;
+    height: 300px;
+    width: 250px;
+    bottom: 0;
+    align-items: center;
+}
+.pb img{
+    position: absolute;
+    bottom: 0px;
+}
+.subSec12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.subSec13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px ;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
