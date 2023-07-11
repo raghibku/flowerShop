@@ -45,6 +45,7 @@ body{
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     align-items: center;
+    background-position: center;
 }
 .pb1{
     background-color: #A7216226
@@ -54,11 +55,14 @@ body{
 }
 .pb3{
     background-color: #477D1126;
+    align-items: center;
 }
+/* .subSec121 .pb3 img{
+    right:30px;
+} */
 .pb img{
     position: absolute;
     bottom: 0px;
-
     right:50px;
 }
 .subSec12{
@@ -113,7 +117,7 @@ body{
 }
 .subSec33{
     height: 50vh;
-    background-image: url("Flower Asset/Rectangle 9.png");
+    background-image: url("./Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     background-size: 66vw 50vh;
     background-position: center;
@@ -148,4 +152,40 @@ body{
 }
 #copyright{
     color:#FFFFFF66
+}
+.flowerVase{
+    /* height: 100 vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5% 0px ;
+    background-color:rgba(39, 39, 39, 0.05);
+}
+.headingVase{
+    padding: 5%;
+    text-align: center;
+}
+.vase1 ,.vase3{
+    display: flex;
+    justify-content: flex-start;
+    padding: 2%;
+    margin: 0px 5%;
+    border-radius: 10px;
+}
+.vase3{
+    background-image: linear-gradient(to right, rgb(71, 71, 185) , white);
+}
+.vase2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2%;
+    margin: 0px 5%;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, rgb(119, 53, 119),white);
+}
+.vase1{
+    background-image: linear-gradient(to right, #ade037,white);
+}
+.vaseInfo{
+    width: 30vw;
 }
