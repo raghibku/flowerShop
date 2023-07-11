@@ -37,6 +37,9 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+.pbCap{
+    text-decoration: underline;
+}
 .pb{
     
     position: relative;
@@ -158,12 +161,17 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     margin: 5% 0px ;
     background-color:rgba(39, 39, 39, 0.05);
+    padding-bottom: 5%;
 }
 .headingVase{
     padding: 5%;
     text-align: center;
+}
+.vase1, .vase2, .vase3{
+    width: 66vw;
 }
 .vase1 ,.vase3{
     display: flex;
@@ -171,9 +179,11 @@ body{
     padding: 2%;
     margin: 0px 5%;
     border-radius: 10px;
+    gap:30px;
 }
 .vase3{
     background-image: linear-gradient(to right, rgb(71, 71, 185) , white);
+    
 }
 .vase2{
     display: flex;
@@ -183,8 +193,13 @@ body{
     border-radius: 10px;
     background-image: linear-gradient(to left, rgb(119, 53, 119),white);
 }
+.vase2 h3, .vase2 p{
+    text-align: end;
+    margin-right:50px ;
+}
 .vase1{
     background-image: linear-gradient(to right, #ade037,white);
+    
 }
 .vaseInfo{
     width: 30vw;
