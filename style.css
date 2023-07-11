@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    /* font-family:'Courier New', Courier, monospace; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .banner{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -19,6 +23,7 @@
     padding:20px 43px;
     border-radius: 10px;
     color: white;
+    border: none;
 }
 /* main section */
 /* section1 */
@@ -66,11 +71,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     padding: 30px ;
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+}
+.subSec131 p{
+    font-size: smaller;
 }
 .section2{
     margin: 20vh 0vw;
@@ -103,4 +111,41 @@
 .subSec32 img{
     height: 250px;
 }
-
+.subSec33{
+    height: 50vh;
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: 66vw 50vh;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.subSec33 input{
+    width: 30vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.subSec33 form{
+    display: flex;
+    gap: 10px;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 50vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.pinkword{
+    color: #E55473;
+}
+#copyright{
+    color:#FFFFFF66
+}
